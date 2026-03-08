@@ -4,30 +4,28 @@
 
 The **Blood Bank Management System (BBMS)** is a web-based platform designed to streamline the management of blood donations, hospital requests, and inventory tracking. By replacing manual processes with a structured digital workflow, BBMS enables hospitals and blood banks to access real-time inventory, maintain donor records, and process blood requests efficiently.
 
-
 ## The Problem
 
 Many blood banks still rely on manual documentation, scattered information, and slow communication methods. This leads to:
 
-* No real-time visibility of blood availability
-* Delays during emergency blood requirements
-* Frequent data entry errors
-* Difficulty managing donors, patients, and hospital requests
-* Lack of a centralized system connecting all operations
+- No real-time visibility of blood availability
+- Delays during emergency blood requirements
+- Frequent data entry errors
+- Difficulty managing donors, patients, and hospital requests
+- Lack of a centralized system connecting all operations
 
 These limitations reduce the efficiency and reliability of blood bank operations.
-
 
 ## Our Solution
 
 BBMS provides an **all-in-one, centralized, and secure system** that handles all operations digitally. Key features include:
 
-* Donor registration and management
-* Hospital request creation and status tracking
-* Real-time inventory monitoring
-* Secure authentication using JWT
-* Fully structured backend APIs
-* Organized frontend interface for hospitals and staff
+- Donor registration and management
+- Hospital request creation and status tracking
+- Real-time inventory monitoring
+- Secure authentication using JWT
+- Fully structured backend APIs
+- Organized frontend interface for hospitals and staff
 
 The goal is to ensure quick response times, reduce manual errors, and improve operational workflow.
 
@@ -35,26 +33,26 @@ The goal is to ensure quick response times, reduce manual errors, and improve op
 
 ### Frontend
 
-* React.js
-* React Router
-* Axios
-* Tailwind CSS
+- React.js
+- React Router
+- Axios
+- Tailwind CSS
 
 ### Backend
 
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-* JWT Authentication
-* bcrypt for password hashing
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- bcrypt for password hashing
 
 ## Environment Setup
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/suraj-savle/blood-bank-management-system.git
+git clone https://github.com/MayankRai89/Bloodbank.git
 ```
 
 ### Backend Setup
@@ -77,6 +75,7 @@ PORT=5000
 Before starting the backend server for the first time, you must create an admin user.
 
 ### Open the file: backend/seedAdmin.js
+
 Update the admin credentials inside the file:
 
 ### Run the seed script from the backend folder:
@@ -105,7 +104,6 @@ npm run dev
 
 <img width="1920" height="970" alt="image" src="https://github.com/user-attachments/assets/b7796043-c68d-4dda-8203-0be6b79ee5c0" />
 
-
 **Admin Dashboard**
 
 <img width="1920" height="1257" alt="image" src="https://github.com/user-attachments/assets/08f36872-ee09-4716-a66a-316aa1c763d5" />
@@ -117,7 +115,6 @@ npm run dev
 **Manage Requests**
 
 <img width="1920" height="1518" alt="image" src="https://github.com/user-attachments/assets/7aafa2aa-d2d4-4f20-982b-136de08df71a" />
-
 
 **Inventory Overview**
 
